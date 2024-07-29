@@ -1,0 +1,34 @@
+* {box-sizing: border-box;
+margin:0px;
+padding: 0px;}
+
+body {display: flex;
+flex-direction: column;}
+
+.header {display: flex;justify-content: space-between;height: 100px;align-items: center;background-color:#1F2937;color: white;}
+.headerlogo {font-size: 24px;font-weight: bolder;margin-left:150px;color: #F9FAF8;}
+li {font-size:18px;color:#E5E7EB;}
+
+
+
+.right-links {display: flex;gap:20px;margin-right: 150px;}
+
+.hero {display:flex;justify-content: space-evenly;background-color: #1F2937;color:white;border: 2px solid black;height: 250px;align-items: center;}
+
+.info-container {display: flex;}
+
+.quotes {display: flex;}
+
+.ext {display: flex;}
+
+.footer {display: flex;}
+
+ul {margin: 0px;padding: 0px;list-style-type: none;}
+
+.text {display:flex;flex-direction: column;border: 2px solid black;width:400px;align-self:center;height: 250px;gap:5px}
+
+.maintext {font-size: 48px;font-weight: 1000;color:#F9FAF8}
+
+.subtext {font-size: 18px;font-weight:400;color: #E5E7EB;}
+
+.signup {}
